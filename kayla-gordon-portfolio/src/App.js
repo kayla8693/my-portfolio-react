@@ -2,12 +2,20 @@ import React from 'react';
 import './App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Main from "./comonents/Main";
+// import Container from "./comonents/Container";
 import Header from "./comonents/Header";
+import Footer from "./comonents/Footer";
 
 
 function App() {
   return (
-    <Header />
+    <React.Fragment>
+      <Header fixed="top" />
+      <Main>
+      </Main>
+      <Footer sticky="bottom" />
+    </React.Fragment>
 
     // <div className="App">
     //   <header className="App-header">
