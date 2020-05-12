@@ -37,10 +37,34 @@
   }
 } */
 
+body {
+  margin: 0;
+}
 
 
 body .container {
   padding: 60px 15px 0;
   height: 600px;
+  min-height: 100%;
+  display: grid;
 
+}
+
+#contentBox {
+  /* border: solid; */
+  margin: 25px 11px 35px 13%;
+  width: 100%;
+  padding: 20px;
+  background: #e6e8e8;
+  border-style: solid;
+  border-color: #dddddd;
+  border-width: 1px;
+  border-radius: 15px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+footer {
+  background: grey;
+  height: 70px;
+  text-align: center;
 }
