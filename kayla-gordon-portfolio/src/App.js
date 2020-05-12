@@ -2,20 +2,25 @@ import React from 'react';
 import './App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import { BrowserRouter as Router, Route } from "react-router-dom";
 import Main from "./components/Main";
 // import Container from "./comonents/Container";
 import Header from "./components/Header";
+// import About from "./components/pages/About";
+// import Portfolio from "./components/pages/Portfolio";
+// import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer";
 
 
 function App() {
   return (
-    <React.Fragment>
+    // <Router>
+    <>
       <Header fixed="top" />
-      <Main>
-      </Main>
+
+      <Main />
       <Footer />
-    </React.Fragment>
+    </>
 
     // <div className="App">
     //   <header className="App-header">
@@ -33,6 +38,7 @@ function App() {
     //     </a>
     //   </header>
     // </div>
+    
   );
 }
 

@@ -1,21 +1,30 @@
 import React from 'react';
-import { Card, Button } from "react-bootstrap"
+import { Card } from "react-bootstrap"
+// import projects from "../projects.json";
 
 
-function Project() {
+function Project(props) {
     return (
-        // <div className="wrapper">
-        //     <img className="image img-fluid" src={require("../images/tracker.png")} alt="tracker"/>
-        // </div>
         <Card style={{ width: '18rem' }}>
             <Card.Img className="image img-fulid" variant="top" src={require("../images/tracker.png")} />
             <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title className="image-text">                <a href={props.deployed} target="blank">
+                    {props.title}
+                </a>
+                </Card.Title>
                 <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    <a href={props.repo} target="blank">
+                        Repository
+                        </a><br />
+                    <span className="projectDescription">{props.description}</span><br /><br />
+                    <strong>Technologies:</strong>
+                    <li>{props.tech[0]}</li>
+                    <li>{props.tech[1]}</li>
+                    <li>{props.tech[2]}</li>
+                    <li>{props.tech[3]}</li>
+                    <li>{props.tech[4]}</li>
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                {/* <Button variant="primary">Go somewhere</Button> */}
             </Card.Body>
         </Card>
     );

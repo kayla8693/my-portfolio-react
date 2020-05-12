@@ -1,40 +1,36 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Project from "../Project";
+import projects from "../../projects.json";
 
-function Portfolio() {
-    return (
-        <>
-            <h2>Portfolio</h2>
-            <hr />
-            <div className="row repRow">
-                <div className="col-md-5">
-                    <Project />
+class Portfolio extends Component {
+    state = {
+        projects
+    }
 
-                </div>
+    render() {
+        return (
+            <>
+                <h2>Portfolio</h2>
+                <hr />
+                    {/* <div className="col-md-5"> */}
 
-                <div className="col-md-5">
-                    <Project />
+                        {this.state.projects.map(project => (
+                            <Project
+                            key={project.id}
+                            title={project.title}
+                            description={project.description}
+                            deployed={project.deployed}
+                            repo={project.repo}
+                            image={project.image}
+                            tech={project.tech}
+                            />
+                        ))}
 
-                </div>
+                    {/* </div> */}
 
-            </div>
-
-
-
-            <div className="row repRow">
-            <div className="col-md-5">
-                    <Project />
-
-                </div>
-
-                <div className="col-md-5">
-                    <Project />
-
-                </div>
-            </div>
-
-        </>
-    );
+            </>
+        );
+    }
 };
 
 export default Portfolio;
