@@ -2,10 +2,10 @@ import React from 'react';
 import './App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Main from "./comonents/Main";
+import Main from "./components/Main";
 // import Container from "./comonents/Container";
-import Header from "./comonents/Header";
-import Footer from "./comonents/Footer";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 
 function App() {

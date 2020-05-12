@@ -41,7 +41,6 @@ body {
   margin: 0;
 }
 
-
 body .container {
   padding: 60px 15px 0;
   height: 600px;
@@ -51,8 +50,9 @@ body .container {
 }
 
 #contentBox {
-  /* border: solid; */
-  margin: 25px 11px 35px 13%;
+  box-sizing: border-box;
+  border: solid;
+  margin: 15px 11px 35px 13%;
   width: 100%;
   padding: 20px;
   background: #e6e8e8;
@@ -61,6 +61,14 @@ body .container {
   border-width: 1px;
   border-radius: 15px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+#me {
+  width: 200px;
+  height: 200px;
+  margin: 0 0 0 10px;
+  padding-right: 15px;
+  float: left;
 }
 
 footer {
