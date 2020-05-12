@@ -52,7 +52,7 @@ body .container {
 #contentBox {
   box-sizing: border-box;
   border: solid;
-  margin: 15px 11px 35px 13%;
+  margin: -15px 11px 35px 13%;
   width: 100%;
   padding: 20px;
   background: #e6e8e8;
@@ -69,6 +69,13 @@ body .container {
   margin: 0 0 0 10px;
   padding-right: 15px;
   float: left;
+}
+
+#submit {
+  background-color: #4aaaa5;
+  color: white;
+  border: solid .5px lightgray;
+  padding: 5px 10px;
 }
 
 footer {
