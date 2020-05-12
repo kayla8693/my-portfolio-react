@@ -78,8 +78,37 @@ body .container {
   padding: 5px 10px;
 }
 
-footer {
-  background: grey;
-  height: 70px;
+.card {
+  /* width: 100px; */
+  margin: 10px 50px 10px 50px;
+  border-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-top: none;
+  float: left;
+  /* flex: 70%; */
+}
+
+.image {
+  height: 150px;
+  width: 200px;
+  /* margin-left: 100px; */
+  border-top-right-radius: 10px;
+}
+
+/* .footer {
+  background-color: red;
   text-align: center;
+  position: sticky;
+  bottom: 0;
+} */
+
+.footer {
+  text-align: center;
+  justify-content: center;
+  color: white !important
+}
+
+.footer-text {
+  width: 100%;
+  margin-right: 0;
 }

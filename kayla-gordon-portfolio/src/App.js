@@ -14,7 +14,7 @@ function App() {
       <Header fixed="top" />
       <Main>
       </Main>
-      <Footer sticky="bottom" />
+      <Footer />
     </React.Fragment>
 
     // <div className="App">
