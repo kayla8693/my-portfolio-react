@@ -10,16 +10,18 @@ import Header from "./components/Header";
 // import Portfolio from "./components/pages/Portfolio";
 // import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer";
+import { BrowserRouter } from "react-router-dom";
 
 
 function App() {
   return (
-    // <Router>
     <>
+    <BrowserRouter>
       <Header fixed="top" />
 
       <Main />
       <Footer />
+      </BrowserRouter>
     </>
 
     // <div className="App">

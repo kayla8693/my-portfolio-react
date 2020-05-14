@@ -16,51 +16,13 @@ function Header() {
   return (
     // <Router>
     <header>
-      
+
       <Navbar className="nav1" collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand href="#home">KAYLA GORDON</Navbar.Brand>
+        <Navbar.Brand className="name">KAYLA GORDON</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-<NavTabs>
-        {/* <Route exact path="/" component={About} />
-                <Route exact path="/portfolio" component={Portfolio} />
-                <Route exact path="/contact" component={Contact} /> */}
-                </NavTabs>
-          {/* <Nav className="ml-auto">
-            <Nav.Link>
-              <Link 
-              to="/" 
-              className={
-                window.location.pathname === "/" || window.location === "about"
-              ? "nav-link active" 
-              : "nav-link"
-              }
-              >
-                About
-                </Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link 
-              to="/portfolio" 
-              className=
-              {window.location.pathname === "/portfolio" 
-              ? "nav-link active" 
-              : "nav-link"
-              }
-              >
-                Portfolio
-                </Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link
-              to="/contact"
-              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-              >
-              Contact
-              </Link>
-              </Nav.Link>
+          <NavTabs />
 
-          </Nav> */}
         </Navbar.Collapse>
       </Navbar>
     </header>

@@ -20,7 +20,7 @@ function Contact() {
                     className="form-control"
                     id="email"
                 /><br />
-                <label for="comment">Message</label><br />
+                <label htmlFor="comment">Message</label><br />
                 <textarea
                     rows="5"
                     className="form-control"

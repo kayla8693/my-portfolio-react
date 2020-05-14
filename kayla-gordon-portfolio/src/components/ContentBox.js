@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Route, withRouter } from "react-router-dom";
 
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -9,13 +9,15 @@ import Portfolio from "./pages/Portfolio";
 
 function ContentBox() {
     return (
-        <Router>
+        // <Router>
             <div className="col-sm-11" id="contentBox">
                 <Route exact path="/" component={About} />
-                <Route exact path="/portfolio" component={Portfolio} />
+
+                <Route exact path="/portfolio" component={withRouter(Portfolio)} />
+                
                 <Route exact path="/contact" component={Contact} />
             </div>
-        </Router>
+        // </Router>
     );
 
 };

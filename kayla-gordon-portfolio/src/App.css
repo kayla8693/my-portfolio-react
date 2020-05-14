@@ -45,6 +45,11 @@ body {
   margin: 0;
 }
 
+.name {
+  margin-left: 100px;
+  letter-spacing: 10px;
+}
+
 body .container {
   padding: 60px 15px 0;
   min-height: 100%;

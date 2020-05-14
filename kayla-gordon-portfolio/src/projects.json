@@ -4,7 +4,7 @@
         "title": "Friendly Social App",
         "deployed": "https://friendly-2020.herokuapp.com/",
         "repo": "https://github.com/kayla8693/friendly",
-        "image": "../images/friendly.png",
+        "image": "friendly.png",
         "description": "A social application designed to connect users based on their shared interests",
         "tech": [
             "Express.js",
@@ -19,7 +19,7 @@
         "title": "Classroom Self Check-in",
         "deployed": "https://kayla8693.github.io/classroom-self-checkin",
         "repo": "https://github.com/kayla8693/classroom-self-checkin",
-        "image": "../images/classroom.png",
+        "image": "classroom.png",
         "description": "An application allowing “students” to check in to class. The app tracks student gender and punctuality",
         "tech": [
             "HTML",
@@ -34,7 +34,7 @@
         "title": "Employee Tracker",
         "deployed": "",
         "repo": "https://github.com/kayla8693/employee-tracker",
-        "image": "",
+        "image": "tracker.png",
         "description": "A Content Management System which allows a user to view, add, update, and delete employee information interests",
         "tech": [
             "Node.js",
@@ -47,7 +47,7 @@
         "title": "Weather Dashboard",
         "deployed": "https://kayla8693.github.io/weather-dashboard/",
         "repo": "https://github.com/kayla8693/weather-dashboard",
-        "image": "",
+        "image": "weather.png",
         "description": "A weather application which allows users to search for different cities and receive live weather updates as well as 5-day forecasts",
         "tech": [
             "jQuery",
@@ -60,7 +60,7 @@
         "title": "Employee Directory",
         "deployed": "",
         "repo": "",
-        "image": "",
+        "image": "directory.png",
         "description": "",
         "tech": [
 

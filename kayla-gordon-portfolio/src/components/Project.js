@@ -6,11 +6,12 @@ import { Card } from "react-bootstrap"
 function Project(props) {
     return (
         <Card style={{ width: '18rem' }}>
-            <Card.Img className="image img-fulid" variant="top" src={require("../images/tracker.png")} />
+            <Card.Img className="image img-fulid" variant="top" src={`/images/${props.image}`} />
             <Card.Body>
-                <Card.Title className="image-text">                <a href={props.deployed} target="blank">
-                    {props.title}
-                </a>
+                <Card.Title className="image-text">
+                    <a href={props.deployed} target="blank">
+                        {props.title}
+                    </a>
                 </Card.Title>
                 <Card.Text>
                     <a href={props.repo} target="blank">

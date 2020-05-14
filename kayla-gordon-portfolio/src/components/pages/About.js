@@ -6,7 +6,7 @@ function About() {
         <>
             <h1>About</h1>
             <hr />
-            <img className="img-fluid" id="me" src={require("../../images/me.jpg")} alt="Kayla Gordon" />
+            <img className="img-fluid" id="me" src="/images/me.jpg" alt="Kayla Gordon" />
             <h3>Hey, I'm Kayla.</h3>
             <p>Full Stack Web Developer leveraging a background in psychology and one-on-one customer service/guest
             relations. Recently earned a certificate in Full Stack Development from Southern Methodist University with
