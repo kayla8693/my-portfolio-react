@@ -19,11 +19,10 @@ function Project(props) {
                         </a><br />
                     <span className="projectDescription">{props.description}</span><br /><br />
                     <strong>Technologies:</strong>
-                    <li>{props.tech[0]}</li>
-                    <li>{props.tech[1]}</li>
-                    <li>{props.tech[2]}</li>
-                    <li>{props.tech[3]}</li>
-                    <li>{props.tech[4]}</li>
+
+                    {props.techs.map(tech => (
+                        <li>{tech}</li>
+                    ))}
                 </Card.Text>
                 {/* <Button variant="primary">Go somewhere</Button> */}
             </Card.Body>

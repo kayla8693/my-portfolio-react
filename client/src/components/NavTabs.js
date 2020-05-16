@@ -4,7 +4,7 @@ import { withRouter } from "react-router";
 import { Nav } from "react-bootstrap";
 
 
-function NavTabs(props) {
+function NavTabs() {
     const location = useLocation();
 
     return (

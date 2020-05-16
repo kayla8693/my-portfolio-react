@@ -10,7 +10,7 @@ class Portfolio extends Component {
     render() {
         return (
             <>
-                <h2>Portfolio</h2>
+                <h2 className="pageTitle">Portfolio</h2>
                 <hr />
                     {/* <div className="col-md-5"> */}
 
@@ -22,7 +22,7 @@ class Portfolio extends Component {
                             deployed={project.deployed}
                             repo={project.repo}
                             image={project.image}
-                            tech={project.tech}
+                            techs={project.techs}
                             />
                         ))}
 

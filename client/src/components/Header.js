@@ -17,7 +17,7 @@ function Header() {
     // <Router>
     <header>
 
-      <Navbar className="nav1" collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar className="nav1" collapseOnSelect expand="lg" bg="light" variant="light">
         <Navbar.Brand className="name">KAYLA GORDON</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

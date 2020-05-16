@@ -4,7 +4,7 @@ import React from "react";
 function About() {
     return (
         <>
-            <h1>About</h1>
+            <h1 className="pageTitle">About</h1>
             <hr />
             <img className="img-fluid" id="me" src="/images/me.jpg" alt="Kayla Gordon" />
             <h3>Hey, I'm Kayla.</h3>
@@ -19,6 +19,25 @@ function About() {
             curiosity, and passion with web development skills in order to generate meaningful, aesthetic, user-friendly
             apps and websites.
         </p>
+
+        <div className="online row">
+            <div className="linkedin col-md-4">
+                <a href="https://www.linkedin.com/in/kayla-gordon/" target="blank">
+                <i className="fab fa-linkedin fa-lg icon"></i></a>
+            </div>
+
+            <div className="github col-md-4">
+                <a href="https://github.com/kayla8693" target="blank">
+                <i className="fab fa-github icon"></i></a>
+            </div>
+
+            <div className="resume col-md-4">
+                <a href="/resume/KaylaGordonResume.pdf" target="blank">
+                <i className="far fa-file icon"></i></a>
+            </div>
+            
+
+        </div>
         </>
     );
 };

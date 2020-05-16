@@ -6,7 +6,7 @@
         "repo": "https://github.com/kayla8693/friendly",
         "image": "friendly.png",
         "description": "A social application designed to connect users based on their shared interests",
-        "tech": [
+        "techs": [
             "Express.js",
             "Handlebars.js",
             "MySQL",
@@ -21,7 +21,7 @@
         "repo": "https://github.com/kayla8693/classroom-self-checkin",
         "image": "classroom.png",
         "description": "An application allowing “students” to check in to class. The app tracks student gender and punctuality",
-        "tech": [
+        "techs": [
             "HTML",
             "Bootstrap",
             "jQuery",
@@ -36,7 +36,7 @@
         "repo": "https://github.com/kayla8693/employee-tracker",
         "image": "tracker.png",
         "description": "A Content Management System which allows a user to view, add, update, and delete employee information interests",
-        "tech": [
+        "techs": [
             "Node.js",
             "Inquirer.js",
             "MySQL"
@@ -49,7 +49,7 @@
         "repo": "https://github.com/kayla8693/weather-dashboard",
         "image": "weather.png",
         "description": "A weather application which allows users to search for different cities and receive live weather updates as well as 5-day forecasts",
-        "tech": [
+        "techs": [
             "jQuery",
             "AJAX",
             "OpenWeather API"
@@ -58,23 +58,28 @@
     {
         "id": 5,
         "title": "Employee Directory",
-        "deployed": "",
-        "repo": "",
+        "deployed": "https://kayla8693.github.io/employee-directory/",
+        "repo": "https://github.com/kayla8693/employee-directory",
         "image": "directory.png",
-        "description": "",
-        "tech": [
-
+        "description": "An employee directory application which allows the user to sort employees by first or last name, and to filter employees by last name",
+        "techs": [
+            "React",
+            "Random User Generator API",
+            "Bootstrap",
+            "React-moment"
         ]
     },
     {
         "id": 6,
-        "title": "",
+        "title": "Team UP!",
         "deployed": "",
-        "repo": "",
-        "image": "",
-        "description": "",
-        "tech": [
-
+        "repo": "https://github.com/kayla8693/team-profile-generator.git",
+        "image": "generator.png",
+        "description": "A command line application which generates a formatted team roster based on user input",
+        "techs": [
+            "Node.js",
+            "Inquirer.js",
+            "Object-oriented programming"
         ]
     }
 ]

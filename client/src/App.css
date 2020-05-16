@@ -45,9 +45,17 @@ body {
   margin: 0;
 }
 
+.nav1 {
+  border-top: solid;
+  border-bottom: solid;
+  border-color: tomato;
+}
+
 .name {
   margin-left: 100px;
   letter-spacing: 10px;
+  font-size: 50px;;
+  font-weight: 600;
 }
 
 body .container {
@@ -65,10 +73,14 @@ body .container {
   padding: 20px;
   background: #e6e8e8;
   border-style: solid;
-  border-color: #dddddd;
-  border-width: 1px;
+  border-color: tomato;
+  border-width: 3px;
   border-radius: 15px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.pageTitle {
+  font-weight: 400;
 }
 
 #me {
@@ -79,8 +91,22 @@ body .container {
   float: left;
 }
 
+.icon {
+  width: 100%;
+  display: flex;
+  font-size: 3rem;
+  margin: 60px auto 60px auto;
+  justify-content: space-evenly;
+  color: tomato;
+
+}
+
+.icon:hover {
+  opacity: .5;
+}
+
 #submit {
-  background-color: #4aaaa5;
+  background-color: tomato;
   color: white;
   border: solid .5px lightgray;
   padding: 5px 10px;
@@ -92,9 +118,6 @@ body .container {
 
 .card {
   margin: 20px auto 20px 35px;
-  /* margin: 1rem; */
-  border-radius: 0;
-  border-bottom-left-radius: 10px;
   border-top: none;
   position: relative;
   float: left;
@@ -104,8 +127,6 @@ body .container {
 .image {
   height: 150px;
   width: 200px;
-  /* margin-left: 100px; */
-  border-top-right-radius: 10px;
 }
 
 li {
