@@ -12,22 +12,17 @@ class Portfolio extends Component {
             <>
                 <h2 className="pageTitle">Portfolio</h2>
                 <hr />
-                    {/* <div className="col-md-5"> */}
-
-                        {this.state.projects.map(project => (
-                            <Project
-                            key={project.id}
-                            title={project.title}
-                            description={project.description}
-                            deployed={project.deployed}
-                            repo={project.repo}
-                            image={project.image}
-                            techs={project.techs}
-                            />
-                        ))}
-
-                    {/* </div> */}
-
+                {this.state.projects.map(project => (
+                    <Project
+                        key={project.id}
+                        title={project.title}
+                        description={project.description}
+                        deployed={project.deployed}
+                        repo={project.repo}
+                        image={project.image}
+                        techs={project.techs}
+                    />
+                ))}
             </>
         );
     }
