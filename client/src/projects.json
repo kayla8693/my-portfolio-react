@@ -74,7 +74,7 @@
         "title": "Google Books Search",
         "deployed": "https://react-google-books-20.herokuapp.com/",
         "repo": "https://github.com/kayla8693/google-books-search",
-        "image": "google-books",
+        "image": "google-books.png",
         "description": "An app designed to search the Google Books API. Allows users to save books in order to review or purchase later",
         "techs": [
             "React",
