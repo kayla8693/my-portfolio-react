@@ -1,7 +1,5 @@
 import React from 'react';
 import { Card } from "react-bootstrap"
-// import projects from "../projects.json";
-
 
 function Project(props) {
     return (
@@ -24,7 +22,6 @@ function Project(props) {
                         <li>{tech}</li>
                     ))}
                 </Card.Text>
-                {/* <Button variant="primary">Go somewhere</Button> */}
             </Card.Body>
         </Card>
     );

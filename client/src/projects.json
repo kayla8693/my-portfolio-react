@@ -31,8 +31,8 @@
     },
     {
         "id": 3,
-        "title": "Employee Tracker",
-        "deployed": "",
+        "title": "Employee Management System",
+        "deployed": "https://drive.google.com/file/d/1oAwieMpI5GT4tPqbQjyrCJ-6xFaRspQJ/view",
         "repo": "https://github.com/kayla8693/employee-tracker",
         "image": "tracker.png",
         "description": "A Content Management System which allows a user to view, add, update, and delete employee information interests",
@@ -71,15 +71,17 @@
     },
     {
         "id": 6,
-        "title": "Team UP!",
-        "deployed": "",
-        "repo": "https://github.com/kayla8693/team-profile-generator.git",
-        "image": "generator.png",
-        "description": "A command line application which generates a formatted team roster based on user input",
+        "title": "Google Books Search",
+        "deployed": "https://react-google-books-20.herokuapp.com/",
+        "repo": "https://github.com/kayla8693/google-books-search",
+        "image": "google-books",
+        "description": "An app designed to search the Google Books API. Allows users to save books in order to review or purchase later",
         "techs": [
+            "React",
+            "Google Books API",
             "Node.js",
-            "Inquirer.js",
-            "Object-oriented programming"
+            "Express.js",
+            "MongoDB"
         ]
     }
 ]

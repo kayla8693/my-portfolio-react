@@ -4,8 +4,6 @@ import { Route, withRouter } from "react-router-dom";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
-// import Header from "./Header";
-// import NavTabs from "./NavTabs";
 
 function ContentBox() {
     return (

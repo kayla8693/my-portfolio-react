@@ -1,5 +1,4 @@
 import React from "react";
-// require ("../../images");
 
 function About() {
     return (
