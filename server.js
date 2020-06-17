@@ -17,7 +17,7 @@ if (process.env.NODE_ENV === "production") {
 
 app.post("/mail", (req, res) => {
   const apiKey = process.env.MAILGUN_API_KEY;
-  const domain = 'sandbox7fcfa03e79db46efb3aa81f47bd48a9a.mailgun.org';
+  const domain = 'sandbox775150727ffc4e9f9bdf1a9dc2dbf806.mailgun.org';
   const mailgun = require('mailgun-js')({ apiKey, domain });
 
   const { from, subject, text } = req.body;

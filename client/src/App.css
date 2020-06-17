@@ -52,7 +52,7 @@ body .container {
 }
 
 .icon {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   font-size: 3rem;
   margin: 60px auto 60px auto;
@@ -81,7 +81,7 @@ body .container {
   border-top: none;
   position: relative;
   float: left;
-  height: 525px;
+  height: 550px;
 }
 
 .image {

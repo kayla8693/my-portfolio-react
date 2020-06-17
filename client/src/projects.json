@@ -1,6 +1,23 @@
 [
     {
         "id": 1,
+        "title": "Charity Tracker",
+        "deployed": "https://charity-wowness.herokuapp.com/",
+        "repo": "https://github.com/kayla8693/charity-tracker",
+        "image": "charity.png",
+        "description": "An application allowing a user to search for and save charities to a database and add/update contact information and best ways to help.",
+        "techs": [
+            "React",
+            "Charity Navigator API",
+            "MongoDB/Mongoose",
+            "Node.js",
+            "Express.js",
+            "bcrypt",
+            "Material-UI"
+        ]
+    },
+    {
+        "id": 2,
         "title": "Friendly Social App",
         "deployed": "https://friendly-2020.herokuapp.com/",
         "repo": "https://github.com/kayla8693/friendly",
@@ -12,21 +29,6 @@
             "MySQL",
             "Node.js",
             "Socket.io"
-        ]
-    },
-    {
-        "id": 2,
-        "title": "Classroom Self Check-in",
-        "deployed": "https://kayla8693.github.io/classroom-self-checkin",
-        "repo": "https://github.com/kayla8693/classroom-self-checkin",
-        "image": "classroom.png",
-        "description": "An application allowing “students” to check in to class. The app tracks student gender and punctuality",
-        "techs": [
-            "HTML",
-            "Bootstrap",
-            "jQuery",
-            "Gender API",
-            "Moment.js"
         ]
     },
     {

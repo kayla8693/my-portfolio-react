@@ -34,8 +34,6 @@ function About() {
                 <a href="/resume/KaylaGordonResume.pdf" target="blank">
                 <i className="far fa-file icon"></i></a>
             </div>
-            
-
         </div>
         </>
     );

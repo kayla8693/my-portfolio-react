@@ -13,21 +13,11 @@ function Contact() {
         setFormData({
             ...formData,
             [name]: value
-        });
-        console.log(formData);
+        }, console.log(formData));
     }
 
-
-    // function loadBooks() {
-    //     API.getBooks()
-    //       .then(res => 
-    //         setBooks(res.data)
-    //       )
-    //       .catch(err => console.log(err));
-    //   };
-
-
-    async function handleSubmit() {
+    const handleSubmit = (event) => {
+        event.preventDefault();
         console.log(formData);
 
         axios.post("/mail", formData)
@@ -35,9 +25,6 @@ function Contact() {
             console.log(data);
         })
         .catch(err => console.log(err));
-
-
-
 
     }
 
@@ -79,10 +66,7 @@ function Contact() {
                     id="submit"
                     onClick={handleSubmit}
                 />
-    
-
             </form>
-
         </>
     );
 };
